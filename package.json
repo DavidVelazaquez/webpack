@@ -1,0 +1,25 @@
+{
+  "name": "platzi_course",
+  "version": "1.0.0",
+  "description": "Proyecto para practicar webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --entry ./index.js --output ./bundle.js --mode development",
+    "build:local": "webpack --mode production",
+    "build:external": "webpack --config ./external/external.config.js",
+    "build:multi": "webpack --config ./multi-entry-points/external.config.js",
+    "build:css": "webpack --config ./css-loader/external.config.js",
+    "build:plugins": "webpack --config ./plugIns/external.config.js"
+  },
+  "author": "David velazquez davidarmando.gdl@live.com",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "3.4.2",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "style-loader": "1.1.3",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11"
+  }
+}
