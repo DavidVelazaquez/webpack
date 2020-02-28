@@ -1,0 +1,21 @@
+body {
+  background-color: #204891;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+}
+
+@keyframes latido {
+  0% {
+    transform: scale(1.1);
+  }
+  85% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
